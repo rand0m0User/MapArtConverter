@@ -1,3 +1,3 @@
 @echo off
-java -Xms4G -Xmx16G -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -jar dist\MapArtConverter.jar "1661220070606-0.png" --dither
+java -Xms4G -Xmx16G -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -jar MapArtConverter.jar "1667166900088999.jpg" --dither --stainedGlass --virt
 pause
